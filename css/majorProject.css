@@ -1,0 +1,76 @@
+body{
+    background-color: thistle;
+}
+
+h1{
+    color:rgb(247, 234, 162);
+    font-style: italic;
+}
+
+#catImg{
+    position: absolute;
+    left: 400px;
+    top: 30px;
+
+}
+
+#btnSearch{
+    border-radius: 50px;
+}
+
+#btnRegister{
+    border-radius: 50px;
+}
+
+#btnStart{
+    position: fixed ; 
+    border-radius: 50px;
+    color:pink; 
+    top: 110px; 
+}
+
+#btnRefresh{
+    position: inherit ;
+    border-radius: 50px;
+    top: 70px;
+    left: 100px;
+}
+
+#createAccount{
+    position: absolute; 
+    border-radius: 15px;
+    width: 300px; 
+    height: 300px; 
+    top: 270px; 
+    left: 350px;
+}
+
+#createAcTitle{
+    position: absolute;
+    color:darkslateblue;
+    left: 100px;
+    top: 250px;
+}
+
+#existUserTitle{
+    position: absolute;
+    color: darkslateblue;
+    left: 100px;
+    top: 250px;
+}
+
+#existedUser{
+    position: absolute; 
+    border-radius: 15px;
+    width: 300px; 
+    height: 300px; 
+    top: 270px; 
+}
+
+#btn{
+    border-radius: 50px;
+}
+
+.animalImg{
+    max-width: 200px;
+}

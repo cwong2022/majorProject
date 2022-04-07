@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+    <script src="https://cwong2022-aba2.restdb.io/rest/_jsapi.js"></script>
+    <head>
+        <title>Cat's FBMI Calculator</title> 
+        <h1>Cat's FBMI Calculator</h1> 
+        <link rel="stylesheet" href="css/majorProject.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <div id="catImg">
+            <img src="images/cat.gif" + width="250px">
+        </div>
+
+        <div id="start page">
+        <button id= 'btnStart'><img src = images/startButton.png + width='300px'></div>
+
+        <div>
+            <button id="btnRefresh" 
+            onClick="window.location.reload();">Refresh Page</button>
+        </div>
+
+        <div id="container" class="container">
+            <p>Rib Cage Circumference (in cm)</p>
+            <input type="text" name="ribCage" id="ribCage">
+            <p>Leg Length (in cm)</p>
+            <input type="text" name="legLegth" id="legLegth">
+            
+            <button onclick="calculateFBMI(document.getElementById('ribCage').value,document.getElementById('legLegth').value)" id="btn">Calculate</button>
+            <div id="result"></div>
+            <div id="commend"></div>
+        </div>
+
+        <div id="registerContainer">
+        <div id="breed" class="breed">
+            <h1>Add for Cats details and Create User</h1>           
+        </div>
+
+        <div>Image URL: <input id="ImgURL" type="text"></div>
+        <div>User Name: <input id="Name" type="text" value="Enter your name"/></div>
+        <div>Password:  <input id="pw" type="password"/> </div>
+        <div>Cat Breed: <input id="Breed"></textarea></div>
+        
+        <div><button id="btnRegister">Register</button></div></div>
+
+        <div id="breedContainer" class="breedContainer">
+        <div id="breed" class="breed">
+            <h1>Login Below :D </h1>           
+        </div>
+    
+        <div>User Name: <input id="InputUserame" type="text" value="Enter your name"/></div>
+        <div>Password:  <input id="InputPassword" type="password"/> </div>
+    
+        
+        <div><button id="btnSearch">Search</button></div>
+        <div id="catPic"></div>
+        <div id="catInfo"></div>
+        <div id="catSick"></div>
+        </div>
+        
+        <button id="existedUser"><img src="images/existedUser.png" + width='200px'>
+            <p id="existUserTitle">Existed User</p>
+        </button>
+
+        <button id="createAccount"><img src="images/createAccount.png" + width='200px'>
+            <p id="createAcTitle">First time here?</p>
+        </button>
+
+    <script type="text/javascript" src="js/majorProject.js"></script>    
+    </body>
+</html>
